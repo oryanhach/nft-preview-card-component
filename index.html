@@ -10,18 +10,56 @@
 
   <title>Frontend Mentor | NFT preview card component</title>
 
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-  Equilibrium #3429
+  <article class="card">
 
-  Our Equilibrium collection promotes balance and calm.
+    <img src="images/image-equilibrium.jpg" class="card__img" alt="Preview of NFT Equilibrium #3429">
 
-  0.041 ETH
-  3 days left
+    <h1 class="card__title">
+      Equilibrium #3429
+    </h1>
 
-  Creation of Jules Wyvern
+    <p class="card__description">
+      Our Equilibrium collection promotes balance and calm.
+    </p>
+
+    <section class="card__details">
+
+      <img src="images/icon-ethereum.svg" class="card__details-icon" alt="" aria-hidden="true">
+
+      <p class="card__details-price">
+        0.041 ETH
+      </p>
+
+      <img src="images/icon-clock.svg" class="card__details-icon" alt="" aria-hidden="true">
+
+      <p class="card__details-time">
+        3 days left
+      </p>
+
+    </section>
+
+    <footer class="card__footer">
+
+      <img src="images/image-avatar.png" class="card__footer-img" alt="profile picture of Jules Wyvern">
+
+      <p class="card__footer-text">
+        Creation of <span class="card__footer-author">Jules Wyvern</span>
+      </p>
+
+    </footer>
+
+  </article>
 
 </body>
 
